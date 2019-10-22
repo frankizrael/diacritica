@@ -1,3 +1,56 @@
 @import "utilities";
 @import "header";
 @import "footer";
+body {
+	font-family: 'lato-regular';
+	color: #2D333F;
+}
+h1,h2,h3,h4 {
+	font-family: 'lato-heavy';
+	margin: 0px;
+}
+p {
+	margin: 0px;
+}
+.x-container {
+	max-width: calc(100% - 300px);
+	margin: auto;
+}
+.x-flex {
+    display: flex;
+    align-items: center;
+}
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.heightFull {
+	height: 100vh;
+}
+.title {
+	h1 {
+		color: #2D333F;
+		font-size: 58px;
+		line-height: 69px;
+	}
+	h2 {
+		color: #2D333F;
+		font-size: 58px;
+		line-height: 69px;
+	}
+	.pronunciation {
+		font-family: 'lato-medium';
+		font-size: 20px;
+		line-height: 24px;
+	}
+}
+.btn {
+	color: white;
+	&.btn_red {
+		background: #F0424C;
+	}
+	&.btn_blue {
+		background: #3EBFDA;
+	}
+}

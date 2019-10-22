@@ -6,8 +6,11 @@ module.exports = function(env) {
     return {
         entry: {
             main: "./src/app.js",
-            home: "./src/home.js",
-            last_results: "./src/entries/autocontrol.js",
+            homee: "./src/entries/home.js",
+            pm: "./src/entries/pm.js",
+            arch: "./src/entries/arch.js",
+            pm_detalle: "./src/entries/pm_detalle.js",
+            arch_detalle: "./src/entries/arch_detalle.js"
         },
         target: "web",
         mode: env.NODE_ENV,

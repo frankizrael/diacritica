@@ -3,15 +3,15 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ) ?>">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<?php
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+	  <?php
         $entry = get_query_var('ENTRY');
         load_assets(['main', $entry]);
         wp_head();
     ?>
 </head>
-<body>
-<header class="">
+<body <?php body_class(); ?>>
+<header>
     <nav>
         <div class="x-container x-flex">
             <div class="left">

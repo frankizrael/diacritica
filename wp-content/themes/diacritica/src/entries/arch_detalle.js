@@ -1,0 +1,1 @@
+import '../scss/arch_detalle.scss';
